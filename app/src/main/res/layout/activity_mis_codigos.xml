@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Opciones.Mis_Datos">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MisCodigosTXT"
+            android:text="Mis Codigos"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="#da5289"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--Imagen del usuario-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/CodigosImagen"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/img_perfil"/>
+
+        <!-- Codigo-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <!--Codigo-->
+            <TextView
+                android:id="@+id/codigoDatoTXT"
+                android:text="Codigo"
+                android:textSize="18sp"
+                android:textColor="#da5289"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--Codigo-->
+            <TextView
+                android:id="@+id/codigoDato"
+                android:text="@string/uidManuel"
+                android:textSize="18sp"
+                android:textColor="#111"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Texto-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <!--Texto-->
+            <TextView
+                android:id="@+id/textoTXT"
+                android:text="@string/textoTXT"
+                android:textSize="18sp"
+                android:textColor="#111"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Texto-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <!--Texto-->
+            <TextView
+                android:id="@+id/textoDosTXT"
+                android:text="@string/textoDosTXT"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#111"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".CambiarPassword.CambiarPassword">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/FindLoveTitulo"
+            android:text="Find-Love"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="#da5289"
+            android:layout_height="wrap_content"/>
+
+
+        <!--INGRESAR CODIGO-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/IntroduceCodET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e5c8d4"
+                android:hint="Introduzca su código"
+                android:importantForAutofill="no"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--BOTÓN PARA BUSCAR-->
+        <Button
+            android:id="@+id/BuscarParejaBTN"
+            android:text="BUSCAR"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/boton_personalizado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

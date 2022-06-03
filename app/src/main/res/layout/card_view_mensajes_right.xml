@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10sp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp">
+
+            <!--Imagen-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fotoPerfilMensaje"
+                android:layout_width="24sp"
+                android:layout_height="24sp"
+                android:src="@drawable/img_perfil"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nombreMensaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="manu_jimc"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/horaMensaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--:--"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/mensajeMensaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hola bienvenido"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Wabalabadin</string>
+    <string name="desarrolladortxt">Desarrollado por: Manuel Jiménez Campos</string>
+    <string name="LoginBTN">LOGIN</string>
+    <string name="RegistrarBTN">Registrarme</string>
+
+
+    //Registro
+    <string name="RegistroTXT">REGISTRO</string>
+    <string name="Correo">Escriba su correo</string>
+    <string name="Password">Escriba su contraseña</string>
+    <string name="Nombres">Nombres Completos</string>
+    <string name="Apellidos">Apellidos Completos</string>
+    <string name="Edad">Edad</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Direccion">Dirección</string>
+    <string name="REGISTRARUSUARIO">REGISTRARME</string>
+
+    //Login
+    <string name="CorreoLogin">Correo electrónico</string>
+    <string name="PasswordLogin">Contraseña</string>
+    <string name="INGRESAR">LOGIN</string>
+    <string name="INGRESARGOOGLE">INGRESAR CON GOOGLE</string>
+
+    //Dialog NO Inicio de Sesión
+    <string name="Noinicio">No se pudo realizar el inicio de sesión, intente de nuevo (Revise correo o contraseña) - Verifique conexión a Internet</string>
+    <string name="ok_no_inicio">ENTENDIDO</string>
+
+    //PERFIL
+    <string name="fecha">--</string>
+    <string name="uidtxt">Uid:</string>
+    <string name="uidPerfil">--</string>
+    <string name="correotxt">Correo:</string>
+    <string name="correoPerfil">--</string>
+    <string name="Bienvenidotxt">Bienvenido(a):</string>
+    <string name="nombresPerfil">--</string>
+
+    //MENÚ
+    <string name="MisDatosOpcion">Mis Datos</string>
+    <string name="CrearPublicacionOpcion">Crear Post</string>
+    <string name="PublicacionesOpcion">Publicaciones</string>
+    <string name="UsuarioOpcion">Usuarios</string>
+    <string name="ChatsOpcion">Chats</string>
+    <string name="CerrarSesion">Cerrar sesión</string>
+
+
+    //MIS DATOS
+    <string name="MisDatosTXT">Mis Datos Personales</string>
+    <string name="uidDato">--</string>
+    <string name="uidDatoTXT">UID:</string>
+    <string name="NombresDato">--</string>
+    <string name="NombresDatoTXT">NOMBRES:</string>
+    <string name="ApellidosDato">--</string>
+    <string name="ApellidosDatoTXT">APELLIDOS:</string>
+    <string name="CorreoDato">--</string>
+    <string name="CorreoDatoTXT">CORREO:</string>
+    <string name="PasswordDato">--</string>
+    <string name="PasswordDatoTXT">PASSWORD:</string>
+    <string name="EdadDato">--</string>
+    <string name="EdadDatoTXT">EDAD:</string>
+    <string name="DireccionDato">--</string>
+    <string name="DireccionDatoTXT">DIRECCION:</string>
+    <string name="TelefonoDato">--</string>
+    <string name="TelefonoDatoTXT">TELEFONO:</string>
+    <string name="Actualizar">Actualizar Datos</string>
+    <string name="ActualizarPass">Actualizar Password</string>
+
+    //CAMBIO DE CONTRASEÑA
+    <string name="MisCredencialesTXT">Mis Credenciales</string>
+    <string name="CorreoActualTXT">Correo Actual:</string>
+    <string name="CorreoActual">--</string>
+    <string name="PassActualTXT">Contraseña Actual:</string>
+    <string name="PassActual">--</string>
+    <string name="ActualPassET">Contraseña Actual</string>
+    <string name="NuevoPassEt">Nueva Contraseña</string>
+    <string name="CAMBIARPASSBTN">CAMBIAR CONTRASEÑA</string>
+    <string name="NotaTXT">Nota: Si cambia de contraseña, se procederá a cerrar sesión automáticamente.</string>
+
+    //MIS CODIGOS
+    <string name="textoTXT">Usted no tiene más codigos disponibles por ahora...</string>
+    <string name="uidManuel">D27YKyqpntfcSDFjvNxF02c8QEo1</string>
+    <string name="textoDosTXT">PULSE SOBRE EL CÓDIGO PARA COPIAR EN PORTAPAPELES</string>
+
+
+
+</resources>
